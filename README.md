@@ -9,26 +9,26 @@ The Carbon Footprint Estimator is a regression-based machine learning project th
 Link:https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation<br>
 ## Features in dataset:<br>
 
-#### 'Body Type': Body type.<br>
-#### 'Sex': Gender.<br>
-#### 'Diet': Diet.<br>
-#### 'How Often Shower': Frequency of showering.<br>
-#### 'Heating Energy Source': Residential heating energy.<br>
-#### 'Transport': Transportation preference.<br>
-#### 'Vehicle Type': Vehicle fuel type.<br>
-#### 'Social Activity': Frequency of participating in social activities.<br>
-#### 'Monthly Grocery Bill': Monthly amount spent on groceries, in dollars.<br>
-#### 'Frequency of Traveling by Air': Frequency of using aircraft in the last month.<br>
-#### 'Vehicle Monthly Distance Km': The kilometers traveled by vehicle in the last month.<br>
-#### 'Waste Bag Size': Size of the garbage bag.<br>
-#### 'Waste Bag Weekly Count': The amount of garbage thrown away in the last week.<br>
-#### 'How Long TV PC Daily Hour': Daily time spent in front of TV or PC.<br>
-#### 'How Many New Clothes Monthly': Number of clothes purchased monthly.<br>
-#### 'How Long Internet Daily Hour': Time spent on the Internet daily.<br>
-#### 'Energy efficiency': Whether or not you care about purchasing energy efficient devices.<br>
-#### 'Recycling': The wastes it recycles.<br>
-#### 'Cooking_With': Devices used in cooking.<br>
-#### 'CarbonEmission': Dependent variable, total carbon emissions.<br>
+'Body Type':   Body type.<br>
+'Sex':   Gender.<br>
+'Diet':   Diet.<br>
+'How Often Shower':   Frequency of showering.<br>
+'Heating Energy Source':   Residential heating energy.<br>
+'Transport':   Transportation preference.<br>
+'Vehicle Type':   Vehicle fuel type.<br>
+'Social Activity':  Frequency of participating in social activities.<br>
+'Monthly Grocery Bill':  Monthly amount spent on groceries, in dollars.<br>
+'Frequency of Traveling by Air':   Frequency of using aircraft in the last month.<br>
+'Vehicle Monthly Distance Km':   The kilometers traveled by vehicle in the last month.<br>
+'Waste Bag Size':   Size of the garbage bag.<br>
+'Waste Bag Weekly Count':   The amount of garbage thrown away in the last week.<br>
+'How Long TV PC Daily Hour':  Daily time spent in front of TV or PC.<br>
+'How Many New Clothes Monthly':   Number of clothes purchased monthly.<br>
+'How Long Internet Daily Hour':   Time spent on the Internet daily.<br>
+'Energy efficiency':   Whether or not you care about purchasing energy efficient devices.<br>
+'Recycling':  The wastes it recycles.<br>
+'Cooking_With':   Devices used in cooking.<br>
+'CarbonEmission':   Dependent variable, total carbon emissions.<br>
 
 
 # Features & Flow:<br>
