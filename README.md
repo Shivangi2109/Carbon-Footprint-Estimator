@@ -6,7 +6,11 @@ The Carbon Footprint Estimator is a regression-based machine learning project th
 3.Suggest areas for lifestyle improvement<br>
 
 # Dataset Used<br>
-Link:https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation<br>
+The dataset used in this project was sourced from Kaggle:<br>
+Dataset Name: Individual Carbon Footprint Calculation<br>
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation).<br>
+
+
 ## Features in dataset:<br>
 
 'Body Type':   Body type.<br>
