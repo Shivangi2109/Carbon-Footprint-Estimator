@@ -1,63 +1,63 @@
 # Carbon-Footprint-Estimator
-The Carbon Footprint Estimator is a regression-based machine learning project that predicts a person's weekly CO₂ emissions (in kilograms) based on their lifestyle choices—like diet, transportation, and electricity usage. It aims to:
-1.Promote awareness about environmental impact
-2.Help users understand how their choices contribute to carbon emissions
-3.Suggest areas for lifestyle improvement
+The Carbon Footprint Estimator is a regression-based machine learning project that predicts a person's weekly CO₂ emissions (in kilograms) based on their lifestyle choices—like diet, transportation, and electricity usage. It aims to:<br>
+1.Promote awareness about environmental impact<br>
+2.Help users understand how their choices contribute to carbon emissions<br>
+3.Suggest areas for lifestyle improvement<br>
 
-# Dataset Used
-Link:https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation
-Features in dataset:
-'Body Type': Body type.
-'Sex': Gender.
-'Diet': Diet.
-'How Often Shower': Frequency of showering
-'Heating Energy Source': Residential heating energy
-'Transport': Transportation preference.
-'Vehicle Type': Vehicle fuel type.
-'Social Activity': Frequency of participating in social activities.
-'Monthly Grocery Bill': Monthly amount spent on groceries, in dollars.
-'Frequency of Traveling by Air': Frequency of using aircraft in the last month.
-'Vehicle Monthly Distance Km': The kilometers traveled by vehicle in the last month.
-'Waste Bag Size': Size of the garbage bag
-'Waste Bag Weekly Count': The amount of garbage thrown away in the last week.
-'How Long TV PC Daily Hour': Daily time spent in front of TV or PC.
-'How Many New Clothes Monthly': Number of clothes purchased monthly.
-'How Long Internet Daily Hour': Time spent on the Internet daily.
-'Energy efficiency': Whether or not you care about purchasing energy efficient devices.
-'Recycling': The wastes it recycles.
-'Cooking_With': Devices used in cooking
-'CarbonEmission': Dependent variable, total carbon emissions.
+# Dataset Used<br>
+Link:https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation<br>
+Features in dataset:<br>
+'Body Type': Body type.<br>
+'Sex': Gender.<br>
+'Diet': Diet.<br>
+'How Often Shower': Frequency of showering.<br>
+'Heating Energy Source': Residential heating energy.<br>
+'Transport': Transportation preference.<br>
+'Vehicle Type': Vehicle fuel type.<br>
+'Social Activity': Frequency of participating in social activities.<br>
+'Monthly Grocery Bill': Monthly amount spent on groceries, in dollars.<br>
+'Frequency of Traveling by Air': Frequency of using aircraft in the last month.<br>
+'Vehicle Monthly Distance Km': The kilometers traveled by vehicle in the last month.<br>
+'Waste Bag Size': Size of the garbage bag.<br>
+'Waste Bag Weekly Count': The amount of garbage thrown away in the last week.<br>
+'How Long TV PC Daily Hour': Daily time spent in front of TV or PC.<br>
+'How Many New Clothes Monthly': Number of clothes purchased monthly.<br>
+'How Long Internet Daily Hour': Time spent on the Internet daily.<br>
+'Energy efficiency': Whether or not you care about purchasing energy efficient devices.<br>
+'Recycling': The wastes it recycles.<br>
+'Cooking_With': Devices used in cooking.<br>
+'CarbonEmission': Dependent variable, total carbon emissions.<br>
 
 
-# Features & Flow
-Exploratory Data Ananlysis:
-1.Check for duplicates
-2.Check for missing values
-3.Check variables' types
-4.Check the unique values
-5.Use Label Encoding for categorical variables
-6.Plot the correlation matrix as a heatmap with colors
+# Features & Flow:<br>
+Exploratory Data Ananlysis:<br>
+1.Check for duplicates<br>
+2.Check for missing values<br>
+3.Check variables' types<br>
+4.Check the unique values<br>
+5.Use Label Encoding for categorical variables<br>
+6.Plot the correlation matrix as a heatmap with colors<br>
 
    
-# Model Training:
-Model: A RandomForestRegressor was selected for its robustness and ability to handle mixed data types. 
-Trained on input features to predict weekly CO₂ output
-Out-of-Bag validation helps assess model performance on unseen data
+# Model Training:<br>
+Model: A RandomForestRegressor was selected for its robustness and ability to handle mixed data types.<br>
+Trained on input features to predict weekly CO₂ output.<br>
+Out-of-Bag validation helps assess model performance on unseen data.<br>
 
-Model Evaluation:
-Mean Squared Error (MSE): Measures prediction error magnitude
-R² Score: Indicates how much variance in carbon output is explained by the model
-Out-of-Bag (OOB) Score: Internal accuracy metric using unused samples during bootstrapping
+Model Evaluation:<br>
+Mean Squared Error (MSE): Measures prediction error magnitude.<br>
+R² Score: Indicates how much variance in carbon output is explained by the model.<br>
+Out-of-Bag (OOB) Score: Internal accuracy metric using unused samples during bootstrapping.<br>
 
-Visual output: 
-Feature importance graph to show what affects predictions most
+Visual output: <br>
+Feature importance graph to show what affects predictions most.<br>
 
-Output:
-Predicted weekly CO₂ emissions (in kg)
+Output:<br>
+Predicted weekly CO₂ emissions (in kg).<br>
 
-# Dependencies
-pandas – for data loading and preprocessing
-numpy – for numerical operations
-matplotlib & seaborn – for visualizing feature importance
-scikit-learn – for model training, evaluation, and preprocessing (LabelEncoder, RandomForest, MSE, R²)
+# Dependencies<br>
+pandas – for data loading and preprocessing.<br>
+numpy – for numerical operations.<br>
+matplotlib & seaborn – for visualizing feature importance.<br>
+scikit-learn – for model training, evaluation, and preprocessing (LabelEncoder, RandomForest, MSE, R²).<br>
 
